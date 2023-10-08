@@ -4,6 +4,14 @@ Qn:- Write a code
 
 and retuns the value of x and y in an array.
 Use int[] solve10() as a sigsignature.
+
+
+
+
+
+
+
+
 */
 
 

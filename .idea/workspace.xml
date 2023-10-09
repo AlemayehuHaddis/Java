@@ -11,11 +11,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2WWtBWWfftPHPLaItd6z5ZoXj22" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -30,8 +41,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "onboarding.tips.debug.path": "E:/Jet Brains/Question3/src/Main.java"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module"
+    ],
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="AlemayehuHaddis" branch="MIU-Questions" />
+    </force-push-targets>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,10 +67,65 @@
       <option name="presentableId" value="Default" />
       <updated>1696860035714</updated>
     </task>
+    <task id="LOCAL-00001" summary="Question&#10;Write a function named largestAdjacentSum that iterates through the array computing the sum of adjacent elements and returns the largest such sum. &#10;&#10;the functions signature is int largestAdjacentSum(int[] a)">
+      <option name="closed" value="true" />
+      <created>1696880710411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696880710411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:E:/Jet Brains/Question3/.idea" />
+                  <option value="file:$PROJECT_DIR$/Question3.iml" />
+                  <option value="file:$PROJECT_DIR$/.gitignore" />
+                  <option value="dir:E:/Jet Brains/Question3/src" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/Jet Brains/Question3/.idea" />
+                        <option value="file:$PROJECT_DIR$/Question3.iml" />
+                        <option value="file:$PROJECT_DIR$/.gitignore" />
+                        <option value="dir:E:/Jet Brains/Question3/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Question&#10;Write a function named largestAdjacentSum that iterates through the array computing the sum of adjacent elements and returns the largest such sum. &#10;&#10;the functions signature is int largestAdjacentSum(int[] a)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question&#10;Write a function named largestAdjacentSum that iterates through the array computing the sum of adjacent elements and returns the largest such sum. &#10;&#10;the functions signature is int largestAdjacentSum(int[] a)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

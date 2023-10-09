@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main {
+    public static int largestAdjacentSum(int[] a) {
+        int largestAdjacentSum = 0;
+
+        for (int i = 0; i < a.length - 1; i++) {
+            int adjacentSum = a[i] + a[i + 1];
+            if (largestAdjacentSum < adjacentSum) {
+                largestAdjacentSum = adjacentSum;
+            }
+        }
+
+        return largestAdjacentSum;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the size of the array: ");
+        int size = scanner.nextInt();
+
+        System.out.println("Enter list of array elements: ");
+        int[] myArray = new int[size];
+        for (int i = 0; i < size; i++) {
+            myArray[i] = scanner.nextInt();
+        }
+
+        System.out.println("The largest sum of the adjacent elements of the array: " + largestAdjacentSum(myArray));
+    }
+}
